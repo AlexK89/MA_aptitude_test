@@ -1,0 +1,92 @@
+.form-control {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.errorMessage {
+  color: red;
+  margin-bottom: 5px;
+}
+
+.adminHeading {
+  margin-top: 40px;
+}
+
+.edit, .delete {
+  width: 48%;
+  padding: 0;
+}
+
+.editPopUp {
+  display: none;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 0;
+  background-color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 20;
+  text-align: left;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+    h2 {
+      padding:10px;
+      margin-bottom: 10px;
+      margin-top: 0;
+      border-bottom: 1px solid lightgray;
+    }
+
+    button {
+      margin: 10px 10px 10px 0;
+      float: right;
+    }
+}
+
+.deletePopUp {
+  display: none;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  padding: 0;
+  background-color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 20;
+  text-align: left;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+
+    p {
+    margin: 10px;
+    }
+
+    h2 {
+      padding:10px;
+      margin-bottom: 10px;
+      margin-top: 0;
+      border-bottom: 1px solid lightgray;
+    }
+
+    button {
+      margin: 10px 10px 10px 0;
+      float: right;
+    }
+
+}
+
+.blur {
+  display: none;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.user_item[data-deleted="1"] {
+  display: none;
+}
